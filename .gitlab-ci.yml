@@ -1,0 +1,23 @@
+stages:
+  - build
+  - publish
+
+
+build_dev:
+  stage: build
+  only:
+    - develop
+  script:
+    - ls
+    - docker build . -t new-frontend_dev:latest
+
+
+publish_dev:
+  stage: publish
+  only:
+    - develop
+  dependencies:
+    - build_dev
+  script:
+    - cd /home/docker/new-frontend
+    - docker compose up -d

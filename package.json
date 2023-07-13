@@ -1,0 +1,63 @@
+{
+	"name": "yabex-frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
+		"@hookform/resolvers": "^2.9.10",
+		"@mui/icons-material": "^5.11.0",
+		"@mui/material": "^5.11.6",
+		"@mui/styles": "^5.11.2",
+		"@next/font": "13.1.6",
+		"@reduxjs/toolkit": "^1.9.1",
+		"@types/node": "18.11.18",
+		"@types/react": "18.0.27",
+		"@types/react-dom": "18.0.10",
+		"axios": "^1.2.5",
+		"classnames": "^2.3.2",
+		"dotenv-webpack": "^8.0.1",
+		"eslint": "8.32.0",
+		"eslint-config-next": "13.1.6",
+		"moment-jalaali": "^0.9.6",
+		"moment-jalaali-holiday": "^1.1.6",
+		"next": "13.1.6",
+		"nprogress": "^0.2.0",
+		"qs": "^6.11.0",
+		"react": "18.2.0",
+		"react-currency-format": "^1.1.0",
+		"react-device-detect": "^2.2.2",
+		"react-dom": "18.2.0",
+		"react-hook-form": "^7.43.0",
+		"react-indiana-drag-scroll": "^2.2.0",
+		"react-query": "^3.39.3",
+		"react-redux": "^8.0.5",
+		"react-sticky-box": "^2.0.4",
+		"react-swipeable-views": "^0.14.0",
+		"react-toastify": "^9.1.1",
+		"redux-persist": "^6.0.0",
+		"sharp": "^0.31.3",
+		"swiper": "^9.0.0",
+		"typescript": "4.9.4",
+		"yup": "^0.32.11"
+	},
+	"devDependencies": {
+		"@svgr/webpack": "^6.5.1",
+		"@types/moment-jalaali": "^0.7.5",
+		"@types/nprogress": "^0.2.0",
+		"@types/react-currency-format": "^1.0.0",
+		"@types/react-swipeable-views": "^0.13.1",
+		"@types/stylis": "^4.0.2",
+		"loader-utils": "^3.2.1",
+		"sass": "^1.58.0"
+	},
+	"tags": [
+		"swiper"
+	]
+}

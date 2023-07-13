@@ -1,0 +1,37 @@
+.overlay_main_new {
+    position: fixed;
+    inset: 0;
+    z-index: 4;
+    background: #455A69;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s ease-out, visibility 0s .3s ease-out;
+}
+.mobile_overlay{
+    z-index:10;
+}
+body.search-open header{
+    z-index:3 !important;
+}
+body.search-open .overlay_main_new {
+    transition: opacity .3s ease-out, visibility 0s 0s ease-out;
+    opacity: .8;
+    visibility: visible;
+}
+
+body.canvas-open {
+    overflow: hidden;
+    padding-right: 17px;
+}
+
+body.canvas-open .overlay_main_new {
+    transition: opacity .3s ease-out, visibility 0s 0s ease-out;
+    opacity: .8;
+    visibility: visible;
+    z-index: 2700;
+}
+@media (max-width: 900px) {
+    body.search-open #tab-list{
+       visibility: hidden;
+    }
+}
